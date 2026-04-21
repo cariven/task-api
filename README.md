@@ -4,7 +4,14 @@
 API sederhana untuk mengelola task (create, read, update).
 
 ## Cara Menjalankan
+Install dependency:
+pip install -r requirements.txt
+
+Jalankan server:
 uvicorn src.main:app --reload
+
+Buka di browser:
+http://127.0.0.1:8000/docs
 
 ## Cara Testing
 pytest --cov=src
